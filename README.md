@@ -1,7 +1,5 @@
-# @architecturex/utils.string
+# @architecturex/constants
 
 ### Installation
 
-`npm install @architecturex/utils.string`
-
-# Usage
+`npm install @architecturex/constants`
