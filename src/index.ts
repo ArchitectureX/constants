@@ -3,19 +3,20 @@ const constants: any = {
   states: {
     Mexico: [
       'Aguascalientes',
-      'Baja California',
       'Baja California Sur',
+      'Baja California',
       'Campeche',
       'Chiapas',
       'Chihuahua',
+      'Ciudad de México',
       'Coahuila',
       'Colima',
       'Durango',
+      'Estado de México',
       'Guanajuato',
       'Guerrero',
       'Hidalgo',
       'Jalisco',
-      'Mexico State (Estado de México)',
       'Michoacán',
       'Morelos',
       'Nayarit',
@@ -32,8 +33,7 @@ const constants: any = {
       'Tlaxcala',
       'Veracruz',
       'Yucatán',
-      'Zacatecas',
-      'Mexico City (Ciudad de México)'
+      'Zacatecas'
     ],
     USA: [
       'Alabama',
