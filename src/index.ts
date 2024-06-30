@@ -1,4 +1,4 @@
-const constants = {
+const constants: any = {
   countries: ['Mexico', 'USA', 'Canada'],
   states: {
     Mexico: [
