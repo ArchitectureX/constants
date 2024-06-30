@@ -1,4 +1,5 @@
 const constants = {
+  countries: ['Mexico', 'USA', 'Canada'],
   states: {
     Mexico: [
       'Aguascalientes',
