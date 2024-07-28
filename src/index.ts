@@ -1591,4 +1591,14 @@ const constants: any = {
   }
 }
 
+export const getStates = (country: string) => {
+  return constants.states[country] || []
+}
+
+export const getCitiesByState = (country: string, state: string) => {
+  const states = constants.states[country] || []
+  const selectedState = states.find((s: any) => s.state === state)
+  return selectedState ? selectedState.cities : []
+}
+
 export default constants
